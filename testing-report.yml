@@ -1,0 +1,17 @@
+---
+- summary:
+    Добавление товара в корзину
+  status: pass
+
+- summary:
+    Поиск товаров по ключевому слову
+  status: pass
+
+- summary:
+    Фильтр товаров по категории
+  status: pass
+
+- summary:
+    Проверка мобильной версии
+  status: fail
+          
