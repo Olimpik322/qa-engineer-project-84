@@ -1,11 +1,11 @@
 -
-summary: 
+summary: |
   Добавление товара в корзину
-requirement:
+requirement: |
   При добавление товара, он корректно отображается в корзине
-prerequisites:
+prerequisites: |
   Открыт сайт https://hexlet-products-store.vercel.app/. 
-test-data:
+test-data: |
   iPhone 9  
 steps:
 - Открыть каталог товаров
@@ -13,72 +13,74 @@ steps:
 - Нажать на конопку "добавить в корзину"
 - Перейти в корзину
 - Проверить корректное добавление и отображение информации о товаре (название, цена, количество)
-expected-result:
+expected-result: |
   -Товар добавлен в корзину и вся информация отображается корректно
 
-- summary:
+- summary: |
     Поиск товаров по ключевому слову
-  requirement:
+  requirement: |
     При вводе ключевого слова, отображаются соответствующие товары
-  prerequisites:
+  prerequisites: |
     Открыт сайт https://hexlet-products-store.vercel.app/. 
-  test-data:
+  test-data: |
     iPhone    
   steps:
   - Нажать на поле ввода поиска
   - Веести ключевое слово
-  expected result:
+  expected result: |
     Отображаются товары соответствующие ключевому слову
 
-- summary:
+- summary: |
     Фильтр товаров по категории
-  requirement:
+  requirement: |
     При выборе категории, отображаются товары этой категории
-  prerequisites:
+  prerequisites: |
     Открыт сайт https://hexlet-products-store.vercel.app/
-  test-data:
+  test-data: |
     Категория "laptops"
   steps:
   - Нажать на кнопку выбора категорий товаров 
   - В выпадающем списке выбрать laptops
-  expected result:
+  expected result: |
     Отображаеются товары выбранной категории
 
-- summary:
+- summary: |
     Проверка мобильной версии сайта
-  requirement:
+  requirement: |
     На сайте имеется мобильная версия и все элементы отображаются корректно.
-  prerequisites:
+  prerequisites: |
     Есть мобильное устройство
-  test-data:
+  test-data: |
     Сайт https://hexlet-products-store.vercel.app/
   steps:
-  - Открыть сайт на мобильном устройстве
-  expected result:  
-    Отображается мобильная версия сайта        
+  - Открыть DevTools браузера
+  - Во вкладке Elements выбрать разрешение iPhone SE
+  - Проверить корректное отображение элементов для мобильной версии
+  expected result: |  
+    Сайт отображется корректно, элементы интерфеса не перекрывют друг друга. Навигация удобна и адаптивна.        
 
-- summary:
+- summary: |
     Фильтрация товаров по цене
-  requirement:
+  requirement: |
     При введении диапазона цен должны отображаться товары попадающие в этот диапазон.
-  prerequisites:    
+  prerequisites: |    
     Открыт сайт https://hexlet-products-store.vercel.app/
-  test-data:
+  test-data: |
     не заданы
   steps:
   - В поле ввода фильтрации по цене ввести от 50 до 1100
-  expected result:
+  expected result: |
     Отображаются товары в выбранном ценовом диапазоне
 
-- summary:
+- summary: |
     Просмотр фотографий в карточке товара
-  requirements:
+  requirements: |
     Фотографии товара открываются и пролистываются
-  prerequisites:
+  prerequisites: |
     Открыта карточка любого товара   
-  test-data:
+  test-data: |
     не заданы
   steps:
   - Попытаться открыть фотографии товара и пролистать их
-  expected result:
+  expected result: |
     Фотографии открываются и переключаются    

@@ -27,25 +27,25 @@ test-cases:
 bugreports: 
   - summary: |
     Нет изображения флага при выборе английского языка локали 
-  environment:  
+  environment: |  
     Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
     Windows 10 
-  steps-to-reproduce:
+  steps-to-reproduce: | 
     1. Открыть сайт https://hexlet-products-store.vercel.app/
     2. Нажать кнопку выбора языка
-  expected result:
+  expected result: |
     При выборе языка, рядом будет отображаться соответствующий флаг
-  actual result:
+  actual result: |
     Изображение флага не отображается(Screen 1)  
 
   - summary: |
     Некорректная фильтрация товаров со скидкой по цене
-  environment:
+  environment: |
     Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
     Windows 10
-  steps-to-reproduce:
+  steps-to-reproduce: |
     1. В поле фильтра ввести от 50 до 1000
-  expected result:
+  expected result: |
     Товары отфилтровываются по скидочной цене, а не основной
-  actual result:
+  actual result: |
     Фильтрация товаров происходит по основной цене(Screen 2,3)  
