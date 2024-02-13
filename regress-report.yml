@@ -1,0 +1,51 @@
+---
+test-cases:
+  - summary: |
+    Добавление товара в корзину
+  status: pass
+   
+  - summary: |
+    Поиск товаров по ключевому слову
+  status: pass
+
+  - summary: |
+    Фильтр товаров по категории
+  status: pass
+
+  - summary: |
+    Проверка мобильной версии
+  status: fail
+
+  - summary: |
+    Фильтр товаров по цене
+  status: fail
+
+  - summary: |
+    Просмотр фотографий в карточке товара
+  status: pass
+
+bugreports: 
+  - summary: |
+    Нет изображения флага при выборе английского языка локали 
+  environment:  
+    Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
+    Windows 10 
+  steps-to-reproduce:
+    1. Открыть сайт https://hexlet-products-store.vercel.app/
+    2. Нажать кнопку выбора языка
+  expected result:
+    При выборе языка, рядом будет отображаться соответствующий флаг
+  actual result:
+    Изображение флага не отображается(Screen 1)  
+
+  - summary: |
+    Некорректная фильтрация товаров со скидкой по цене
+  environment:
+    Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
+    Windows 10
+  steps-to-reproduce:
+    1. В поле фильтра ввести от 50 до 1000
+  expected result:
+    Товары отфилтровываются по скидочной цене, а не основной
+  actual result:
+    Фильтрация товаров происходит по основной цене(Screen 2,3)  
