@@ -14,4 +14,12 @@
 - summary:
     Проверка мобильной версии
   status: fail
+
+- summary:
+    Фильтр товаров по цене
+  status: fail
+  
+- summary:
+    Просмотр фотографий в карточке товара
+  status: fail        
           
