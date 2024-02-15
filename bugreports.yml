@@ -2,7 +2,7 @@
 - summary: |
     Нет изображения флага при выборе английского языка локали 
   environment: |  
-    Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
+    Google Chrome Версия 121.0.6167.161 
     Windows 10 
   steps-to-reproduce: |
     1. Открыть сайт https://hexlet-products-store.vercel.app/
@@ -15,7 +15,7 @@
 - summary: |
     Некорректная фильтрация товаров со скидкой по цене
   environment: |
-    Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
+    Google Chrome Версия 121.0.6167.161 
     Windows 10
   steps-to-reproduce: |
     1. В поле фильтра ввести от 50 до 1000
@@ -27,7 +27,7 @@
 - summary: |
     Фотографии в карточке товара не переключаются
   environment: |    
-    Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
+    Google Chrome Версия 121.0.6167.161 
     Windows 10
   steps-to-reproduce: |
     1. Открыть карточку товара
@@ -40,7 +40,7 @@
 - summary: |
     Контейнер с контентом расположен не по центру страницы
   environment: |
-    Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
+    Google Chrome Версия 121.0.6167.161 
     Windows 10
   steps-to-reproduce: |
     1. Открыть каталог товаров
@@ -53,7 +53,7 @@
 - summary: |
     Отсутствует мобильная версия сайта
   environment: |
-    Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
+    Google Chrome Версия 121.0.6167.161 
     Windows 10 
   steps-to-reproduce: |
     1. Открыть DevTools браузера
