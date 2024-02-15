@@ -1,31 +1,31 @@
 ---
 test-cases:
-  - summary: |
+- summary: |
     Добавление товара в корзину
   status: pass
    
-  - summary: |
+- summary: |
     Поиск товаров по ключевому слову
   status: pass
 
-  - summary: |
+- summary: |
     Фильтр товаров по категории
   status: pass
 
-  - summary: |
+- summary: |
     Проверка мобильной версии
   status: fail
 
-  - summary: |
+- summary: |
     Фильтр товаров по цене
   status: fail
 
-  - summary: |
+- summary: |
     Просмотр фотографий в карточке товара
   status: pass
 
 bugreports: 
-  - summary: |
+- summary: |
     Нет изображения флага при выборе английского языка локали 
   environment: |  
     Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
@@ -38,7 +38,7 @@ bugreports:
   actual-result: |
     Изображение флага не отображается(Screen 1)  
 
-  - summary: |
+- summary: |
     Некорректная фильтрация товаров со скидкой по цене
   environment: |
     Google Chrome Версия 121.0.6167.161 (Официальная сборка), (64 бит)
