@@ -20,7 +20,7 @@ expected-result: |
     Поиск товаров по ключевому слову
   requirement: |
     При вводе ключевого слова, отображаются соответствующие товары
-  prerequisites: |
+  prerequisites: 
     Открыт сайт https://hexlet-products-store.vercel.app/. 
   test-data: |
     iPhone    
@@ -34,7 +34,7 @@ expected-result: |
     Фильтр товаров по категории
   requirement: |
     При выборе категории, отображаются товары этой категории
-  prerequisites: |
+  prerequisites: 
     Открыт сайт https://hexlet-products-store.vercel.app/
   test-data: |
     Категория "laptops"
@@ -48,7 +48,7 @@ expected-result: |
     Проверка мобильной версии сайта
   requirement: |
     На сайте имеется мобильная версия и все элементы отображаются корректно.
-  prerequisites: |
+  prerequisites: 
     Есть мобильное устройство
   test-data: |
     Сайт https://hexlet-products-store.vercel.app/
@@ -63,7 +63,7 @@ expected-result: |
     Фильтрация товаров по цене
   requirement: |
     При введении диапазона цен должны отображаться товары попадающие в этот диапазон.
-  prerequisites: |    
+  prerequisites:     
     Открыт сайт https://hexlet-products-store.vercel.app/
   test-data: |
     не заданы
@@ -76,7 +76,7 @@ expected-result: |
     Просмотр фотографий в карточке товара
   requirements: |
     Фотографии товара открываются и пролистываются
-  prerequisites: |
+  prerequisites: 
     Открыта карточка любого товара   
   test-data: |
     не заданы
