@@ -66,7 +66,7 @@ expected-result: |
   prerequisites:     
     Открыт сайт https://hexlet-products-store.vercel.app/
   test-data: |
-    не заданы
+    Нет данных
   steps:
     - В поле ввода фильтрации по цене ввести от 50 до 1100
   expected-result: |
@@ -79,7 +79,7 @@ expected-result: |
   prerequisites: 
     Открыта карточка любого товара   
   test-data: |
-    не заданы
+    Нет данных
   steps:
     - Попытаться открыть фотографии товара и пролистать их
   expected-result: |
