@@ -7,9 +7,9 @@
   steps-to-reproduce: |
     1. Открыть сайт https://hexlet-products-store.vercel.app/
     2. Нажать кнопку выбора языка
-  expected result: |
+  expected-result: |
     При выборе языка, рядом будет отображаться соответствующий флаг
-  actual result: |
+  actual-result: |
     Изображение флага не отображается(Screen 1)
 
 - summary: |
@@ -19,9 +19,9 @@
     Windows 10
   steps-to-reproduce: |
     1. В поле фильтра ввести от 50 до 1000
-  expected result: |
+  expected-result: |
     Товары отфилтровываются по скидочной цене, а не основной
-  actual result: |
+  actual-result: |
     Фильтрация товаров происходит по основной цене(Screen 2,3)   
 
 - summary: |
@@ -32,9 +32,9 @@
   steps-to-reproduce: |
     1. Открыть карточку товара
     2. Переключать фотографии товара
-  expected result: | 
+  expected-result: | 
     При выборе фотографии фокус смещается на него 
-  actual result: |
+  actual-result: |
     Фотографии не кликабельные                 
 
 - summary: |
@@ -45,9 +45,9 @@
   steps-to-reproduce: |
     1. Открыть каталог товаров
     2. Обратить внимание на контейнер с контентом относительно левого края 
-  expected result: |
+  expected-result: |
     Контейнер контента находится по центу страницы с равными отступами от краев
-  actual result: |
+  actual-result: |
     Весь контент расположен вполтную к левому краю страницы   
 
 - summary: |
@@ -59,7 +59,7 @@
     1. Открыть DevTools браузера
     2. Во вкладке Elements выбрать разрешение iPhone SE
     3. Проверить отображение всех элементов сайт
-  expected result: |
+  expected-result: |
     Сайт отображется корректно, элементы интерфеса не перекрывют друг друга. Навигация удобна и адаптивна
-  actual result: |
+  actual-result: |
     Изображения растянуты, интерфейс не адаптирован под мобильную версию                          
